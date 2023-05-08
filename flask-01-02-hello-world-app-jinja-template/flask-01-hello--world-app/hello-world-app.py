@@ -19,5 +19,5 @@ def forth(id):
     return f'Id of this page is {id}'
 
 if __name__ == '__main__':
-    app.run(debug=True)  #local pc de calusırken hataları gormek icin kullanacaz
-    #app.run(host= '0.0.0.0', port=80) # globalde ec2 da calıstırmak icin
+    #app.run(debug=True, port=3000)#local pc de calusırken hataları gormek icin kullanacaz
+    app.run(host= '0.0.0.0', port=80) # globalde ec2 da calıstırmak icin
